@@ -7,13 +7,3 @@ buttons.forEach(btn => {
         }
     })
 })
-
-function getPlaylist(condition){
-    if (window.nsignSDK) {
-        window.nsignSDK.runCondition(condition);
-    } else {
-        console.log('No existe la condicion');
-    }
-}
-
-
